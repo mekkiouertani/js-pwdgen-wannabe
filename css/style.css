@@ -1,4 +1,20 @@
-body{
-    background-color: gray;
-    font-size: 2em;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(84,11,185);
+    background: radial-gradient(circle, rgba(84,11,185,1) 0%, rgba(77,128,189,1) 90%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box{
+    background: rgb(217,217,217);
+    background: linear-gradient(331deg, rgba(217,217,217,1) 55%, rgba(232,232,232,1) 72%);
+    padding: 30px;
 }
