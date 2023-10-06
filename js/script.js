@@ -12,5 +12,12 @@ console.log(color);
 let newpass = fname + surname + color + luckyNumber;
 console.log(newpass);
 
-document.getElementById('generator').innerHTML = newpass;
+let complete = `<h2>Complimenti</h2>
+hai generato una nuova password super sicura:
+
+<strong> ${newpass} </strong> `;
+
+document.getElementById('generator').innerHTML = complete;
 console.log(document.getElementById('generator'));
+
+
